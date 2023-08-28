@@ -1,0 +1,20 @@
+h1{
+    color: blue;
+}
+
+.main-body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../image/login.jpg.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: relative;
+}
+
+.auth-section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
